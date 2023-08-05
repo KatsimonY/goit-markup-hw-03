@@ -88,7 +88,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  padding: 25px 0 25px 0;
 }
 
 .top-line {
@@ -121,6 +120,10 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.nav-list-item {
+  padding: 25px 0;
 }
 
 .link:hover,
@@ -166,6 +169,7 @@ img {
 .hero-button {
   /* box */
   display: block;
+  min-width: 169px;
   margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
@@ -327,6 +331,7 @@ img {
 .filter-btn:focus {
   background: var(--pressed-state);
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .portfolio-container {
